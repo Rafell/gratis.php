@@ -12,21 +12,29 @@ $today = date("d M Y");
 $d = date("D");
 echo $biru. "Tanggal :".$today;
 echo $biru. "Hari ";
-if($d == "Sun") {	echo "Minggu";
+if($d == "Sun") 
+{	echo "Minggu";
 }
-elseif ($d == "Mon") {	echo "Senin";
+elseif ($d == "Mon") 
+{	echo "Senin";
 }
-elseif ($d == "Tue") {	echo "Selasa";
+elseif ($d == "Tue") 
+{	echo "Selasa";
 }
-elseif ($d == "Wed") {	echo "Rabu";
+elseif ($d == "Wed") 
+{	echo "Rabu";
 }
-elseif ($d == "Thu") {	echo "Kamis";
+elseif ($d == "Thu") 
+{	echo "Kamis";
 }
-elseif ($d == "Fri") {	echo "Jumat";
+elseif ($d == "Fri") 
+{	echo "Jumat";
 }
-elseif ($d == "Sat") {	echo "Sabtu";}$nomor = "0895337883914";
+elseif ($d == "Sat") 
+{	echo "Sabtu";
+}$nomor ="0895337883914";
 //pilih
-print $ijo."
+print $iijo."
 #######################################
 ## Author By : Mr.F3eLL
 ## Team : BlackHat Hacker Indonesia
